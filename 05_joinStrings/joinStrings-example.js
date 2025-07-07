@@ -10,5 +10,6 @@ module.exports = {
   greeting,
   thisYear,
   firstName,
-  lastName
+  lastName,
+  birthYear,
 }
