@@ -2,12 +2,10 @@
 
 // То есть: удаляет все тире, каждое слово после тире становится заглавным.
 
-
-
 function camelize(str) { 
   return str.split('-').map((items, index) => {
       if (index === 0) { 
-          return items.charAt(0).toLowerCase() + items.slice(1);     
+          return items.charAt(0) + items.slice(1);     
       } else { 
           return items.charAt(0).toUpperCase() + items.slice(1)
       }
